@@ -1,0 +1,51 @@
+import img from '../../assets/homePics/compLady.jpg';
+
+const ComponentOne = () => {
+  // TODO: Replace this with your actual background image URL
+  const backgroundImageUrl = img;
+
+  return (
+    <div
+      className="relative w-full bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${backgroundImageUrl})`,
+      }}
+    >
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-70 md:bg-gradient-to-r from-black/80 to-transparent"></div>
+
+      {/* Content Container */}
+      <div className="relative z-10 flex h-[90vh] min-h-[600px] items-center">
+        <div className="mx-auto w-full max-w-6xl px-6 py-12 text-white md:px-10 lg:px-16">
+          <div className="max-w-3xl">
+            <div className="mt-11 h-1 w-12 bg-red-500"></div>
+            <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-300">
+              Empowering careers with data intelligence
+            </p>
+
+            <h1 className="text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
+              Industry-ready training in <span className="text-red-500">Data Science</span>,{' '}
+              <span className="text-red-500">AI</span>, <span className="text-red-500">Machine Learning</span>,{' '}
+              <span className="text-red-500">IT</span>, and{' '}
+              <span className="text-red-500">Business Analytics</span>—designed to match global standards.
+            </h1>
+
+            <p className="mt-6 max-w-2xl text-lg text-gray-200">
+              Learn from expert mentors, gain hands-on experience, and earn certifications that matter.
+            </p>
+
+            <div className="mt-10">
+              <button
+                className="rounded-md bg-red-500 px-8 py-3 text-base font-semibold text-white shadow-lg transition-transform duration-300 hover:bg-red-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ComponentOne;
