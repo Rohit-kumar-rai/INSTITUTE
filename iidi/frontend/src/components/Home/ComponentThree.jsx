@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Star Icon Component
 const StarIcon = ({ className }) => (
@@ -19,11 +20,11 @@ const CourseCard = ({ course }) => (
     <div className="p-4 sm:p-6 flex flex-col flex-grow">
       <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{course.title}</h3>
       <p className="text-sm sm:text-base text-gray-600 mb-3">
-        <span className="font-semibold">Topics:</span> {course.topics}
+       {/*<span className="font-semibold">Topics:</span> {course.topics}*/} 
       </p>
 
       <div className="text-sm sm:text-base text-gray-600 space-y-1 mb-3">
-        <p>Duration: {course.duration}</p>
+       { /*<p>Duration: {course.duration}</p>*/}
         <div className="flex items-center">
           <span className="text-yellow-500 font-bold mr-1">{course.rating}</span>
           <StarIcon className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-500" />
@@ -40,7 +41,7 @@ const CourseCard = ({ course }) => (
         ))}
       </div>
 
-      <div className="flex items-center text-xs sm:text-sm text-gray-600 mt-auto mb-3">
+     {/*  <div className="flex items-center text-xs sm:text-sm text-gray-600 mt-auto mb-3">
         <div className="flex -space-x-1 sm:-space-x-2 mr-2 sm:mr-3">
           {course.avatars.map((avatar, idx) => (
             <img
@@ -52,15 +53,15 @@ const CourseCard = ({ course }) => (
           ))}
         </div>
         <span className="text-xs sm:text-sm">{course.enrollment}</span>
-      </div>
+      </div> */}
 
       <div className="grid grid-cols-2 gap-2 sm:gap-4 border-t pt-3 sm:pt-4">
         <button className="w-full py-2 sm:py-2.5 text-gray-700 font-semibold bg-white border border-gray-300 rounded-md hover:bg-gray-100 transition-colors text-xs sm:text-sm">
           BROCHURE
         </button>
-        <button className="w-full py-2 sm:py-2.5 text-white font-semibold bg-gray-800 rounded-md hover:bg-gray-900 transition-colors text-xs sm:text-sm">
+       <Link to = {course.path}> <button className="w-full py-2 sm:py-2.5 text-white font-semibold bg-gray-800 rounded-md hover:bg-gray-900 transition-colors text-xs sm:text-sm">
           VIEW COURSE
-        </button>
+        </button></Link>
       </div>
     </div>
   </div>
@@ -69,7 +70,7 @@ const CourseCard = ({ course }) => (
 const ComponentThree = () => {
   const courses = [
     {
-      title: 'Data Science and Artificial Intelligence',
+      title: 'Data science & AI',
       imageUrl: 'https://placehold.co/600x400/000000/FFFFFF?text=Data+Science',
       topics: 'Python Programming, Machine Learning, Data Visualization, AI Applications',
       duration: '4-6 Months',
@@ -83,9 +84,10 @@ const ComponentThree = () => {
         'https://placehold.co/40x40/i/10B981/FFFFFF?text=C',
       ],
       enrollment: '1000+ Students enrolled in Jul 2025',
+      path: '/datascience',
     },
     {
-      title: 'Marketing Analytics Certification',
+      title: 'Digital Marketing With AI',
       imageUrl: 'https://placehold.co/600x400/3B82F6/FFFFFF?text=Marketing',
       topics: 'Consumer Behaviour Analytics, Digital Marketing Metrics, Google Analytics',
       duration: '4-6 Months',
@@ -99,10 +101,11 @@ const ComponentThree = () => {
         'https://placehold.co/40x40/i/10B981/FFFFFF?text=F',
       ],
       enrollment: '1000+ Students enrolled in Jul 2025',
+      path: '/marketing',
     },
     {
-      title: 'Data Science and Artificial Intelligence',
-      imageUrl: 'https://placehold.co/600x400/1F2937/FFFFFF?text=AI',
+      title: 'Influencer Marketing With Content Creation',
+      imageUrl: 'https://placehold.co/600x400/1F2937/FFFFFF?text=Influencer Marketing',
       topics: 'Python Programming, Machine Learning, Data Visualization, AI Applications',
       duration: '4-6 Months',
       rating: 4.7,
@@ -115,6 +118,7 @@ const ComponentThree = () => {
         'https://placehold.co/40x40/i/10B981/FFFFFF?text=I',
       ],
       enrollment: '1000+ Students enrolled in Jul 2025',
+      path: '/infleuncer-marketing',
     },
   ];
 
