@@ -66,9 +66,10 @@ const ComponentOne = () => {
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight mb-">
                             Empowering Tomorrow's Innovators with <span className="text-red-500">IIDI</span>
                         </h1>
-                        <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
-                            Start, switch, or advance your career with more than 10,000 courses, Professional Certificates, and degrees from world-class universities and companies.
-                        </p>
+                         <p className="text-lg font-bold text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
+                             WELCOME TO THE CERTIFICATION IN INFULANCER
+this program prepares you to leverage personal branding and ai innovation for growth, impact, and career opportunities in the creator economy.
+                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <button className="group flex items-center justify-center bg-red-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-red-600 transition-colors duration-300 ease-in-out">
                                 <Link to="" className="flex items-center">
@@ -104,7 +105,7 @@ const ComponentOne = () => {
 
                         {/* Floating Stat Cards */}
                         <CompletionRateCard />
-                        <CoursesCountCard />
+                        {/* <CoursesCountCard /> */}
                     </div>
                 </div>
             </div>

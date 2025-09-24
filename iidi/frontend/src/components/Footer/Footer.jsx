@@ -40,11 +40,11 @@ export default function Footer() {
             <LogoIcon />
             <p className="text-gray-500">
               Industry Growth 
-The influencer marketing
- industry is worth over $24 billion
- globally by 2025, presenting
- immense career opportunitieS.
- Cost-Effective Leads
+ Brands increasingly rely on certified
+ professionals to build authentic
+ engagement and trust with their
+ target audiences.
+
  
 
             </p>
