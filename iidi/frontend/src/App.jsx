@@ -13,6 +13,8 @@ import UploadProof from './components/Payment/UploadProof.jsx';
 import WhatsApp from './components/WhatsappIcon/Whatsapp.jsx';
 import About from './components/About/About';
 import emailjs from 'emailjs-com';
+import Contact from './components/Contact/Contact.jsx';
+import CourseHome from './components/CourseHome/CourseHome.jsx';
 
 function App() {
 
@@ -46,7 +48,8 @@ function App() {
           <Route path="/qrcode" element={<Qrcode />} />
           <Route path="/upload-proof" element={<UploadProof />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<h1>Contact</h1>} />
+          <Route path="/contact" element={<Contact />} />
+           <Route path ="/marketing" element={<CourseHome />}/>
         </Routes>
         <Footer />
       </AuthProvider>
