@@ -1,22 +1,35 @@
 import React from 'react';
+import google from '../../assets/homePics/logos/google.png';
+import ibm from '../../assets/homePics/logos/ibm.png';
+import duke from '../../assets/homePics/logos/duke.png';
+import stanford from '../../assets/homePics/logos/stanford.png';
+import penn from '../../assets/homePics/logos/penn.png';
+import michigan from '../../assets/homePics/logos/michigan.png';
+import imperial from '../../assets/homePics/logos/imperial.png';
+import illinois from '../../assets/homePics/logos/illinois.png';
 
 // Logo placeholder component
-const LogoPlaceholder = ({ name }) => (
-  <div className="flex items-center justify-center bg-gray-200 rounded-lg h-12 w-32 sm:h-14 sm:w-36 md:h-16 md:w-40 mx-2 my-2">
-    <span className="text-gray-500 text-xs sm:text-sm md:text-base font-semibold">{name}</span>
+const LogoPlaceholder = ({ logo, name }) => (
+  <div className="flex items-center justify-center  rounded-lg h-12 w-32 sm:h-14 sm:w-36 md:h-16 md:w-40 mx-2 my-2">
+    <img
+      src={logo}
+      alt={name}
+      className='object-contain'
+      
+    />
   </div>
 );
 
 const ComponentTwo = () => {
   const logos = [
-    'Illinois',
-    'Duke',
-    'Google',
-    'Michigan',
-    'IBM',
-    'Imperial College',
-    'Stanford',
-    'Penn'
+    { name: 'Illinois', path: illinois },
+    { name: 'Duke', path: duke },
+    { name: 'Google', path: google },
+    { name: 'Michigan', path: michigan },
+    { name: 'IBM', path: ibm },
+    { name: 'Imperial College', path: imperial },
+    { name: 'Stanford', path: stanford },
+    { name: 'Penn', path: penn },
   ];
 
   return (
@@ -30,8 +43,8 @@ const ComponentTwo = () => {
         </h2>
 
         <div className="flex flex-wrap items-center justify-center">
-          {logos.map((logoName) => (
-            <LogoPlaceholder key={logoName} name={logoName} />
+          {logos.map((item) => (
+            <LogoPlaceholder key={item.name} logo={item.path} name={item.name} />
           ))}
         </div>
       </div>
@@ -39,10 +52,4 @@ const ComponentTwo = () => {
   );
 };
 
-export default function App() {
-  return (
-    <div className="flex items-center justify-center min-h-screen bg-white">
-      <ComponentTwo />
-    </div>
-  );
-}
+export default ComponentTwo;

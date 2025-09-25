@@ -1,10 +1,13 @@
 import React from 'react';
+import img1 from '../../assets/homePics/coursepics/ai.png';
+import img2 from '../../assets/homePics/coursepics/marketing.png';
+import img3 from '../../assets/homePics/coursepics/influencer.png'
 
 // Data for the certification cards
 const programs = [
     {
         title: 'Data Science and Artificial Intelligence',
-        image: 'https://placehold.co/600x400/e2e8f0/1a202c?text=Data+Science',
+        image: img1,
         duration: '4-6 Months',
         certificate: 'Professional Certificate',
         tags: ['DEDICATED CAREER SUPPORT', 'MENTORSHIP'],
@@ -12,7 +15,7 @@ const programs = [
     },
     {
         title: 'Digital Marketing with AI',
-        image: 'https://placehold.co/600x400/dbeafe/1e3a8a?text=Digital+Marketing',
+        image: img2,
         duration: '4-6 Months',
         certificate: 'Professional Certificate',
         tags: ['DEDICATED CAREER SUPPORT', 'MENTORSHIP'],
@@ -20,7 +23,7 @@ const programs = [
     },
     {
         title: 'Influencer Marketing & Content Creation with AI',
-        image: 'https://placehold.co/600x400/fee2e2/991b1b?text=Influencer+Marketing',
+        image: img3,
         duration: '4-6 Months',
         certificate: 'Professional Certificate',
         tags: ['DEDICATED CAREER SUPPORT', 'MENTORSHIP'],

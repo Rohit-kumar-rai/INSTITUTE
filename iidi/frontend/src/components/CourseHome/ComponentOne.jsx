@@ -1,9 +1,10 @@
 import React from 'react';
+import img from '../../assets/coursepics/content.jpg';
 
 // Main Hero Section Component
 export default function HeroSection() {
     // You can replace this placeholder URL with your actual image path
-    const backgroundImageUrl = 'https://placehold.co/1920x1080/1a202c/ffffff?text=Your+Background+Image';
+    const backgroundImageUrl = img;
 
     return (
         <div 

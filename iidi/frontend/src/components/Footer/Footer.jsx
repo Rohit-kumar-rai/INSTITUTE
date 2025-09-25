@@ -27,7 +27,7 @@ const GithubIcon = () => (
 
 export default function Footer() {
   const footerLinks = [ {name:"Data science & AI" ,to: "DataScience"}, {name:"Digital Marketing With AI", to: "Digital Marketing With AI"}, {name:"Influencer Marketing With Content Creation", to: "Influencer Marketing With Content Creation"}]; //["Features", "data science & AI","Marketing Analytics","Design" /*"Careers", "Work", "Code", "Cool stuffs", "Last thing"*/];
-   const AboutLinks =[ {name:"Home", to: "/"},{name:"About" ,to: "/"}, {name:"features", to: "/course"}]; 
+   const AboutLinks =[ {name:"Home", to: "/"},{name:"About" ,to: "/"}, {name:"contact us", to: "/contact"},{name:"features", to: "/course"}]; 
 
   return (
     <footer className="bg-white text-gray-700 font-sans">
@@ -39,11 +39,7 @@ export default function Footer() {
           <div className="space-y-4">
             <LogoIcon />
             <p className="text-gray-500">
-              Industry Growth 
- Brands increasingly rely on certified
- professionals to build authentic
- engagement and trust with their
- target audiences.
+              IIDI is a global leader in education and training across a wide range of fields, including Data Science, AI, ML, Deep Learning, IT, CS, BA, BI, Communication & Media and Web Development.
 
  
 

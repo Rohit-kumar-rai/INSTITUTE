@@ -1,5 +1,6 @@
 import ComponentOne from "./ComponentOne"
 import ComponentTwo from "./ComponentTwo"
+import ComponentThree from "./ComponentThree"
 
 
 const CourseHome =()=>{
@@ -7,6 +8,7 @@ const CourseHome =()=>{
         <div className="w-full p-0 min-h-screen">
             <ComponentOne/>
             <ComponentTwo/>
+            <ComponentThree/>
            
 
         </div>
