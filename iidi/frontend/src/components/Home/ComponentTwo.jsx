@@ -6,7 +6,7 @@ import stanford from '../../assets/homePics/logos/stanford.png';
 import penn from '../../assets/homePics/logos/penn.png';
 import michigan from '../../assets/homePics/logos/michigan.png';
 import imperial from '../../assets/homePics/logos/imperial.png';
-import illinois from '../../assets/homePics/logos/illinois.png';
+import illinois from '../../assets/homePics/logos/Illinois.png';
 
 // Logo placeholder component
 const LogoPlaceholder = ({ logo, name }) => (
