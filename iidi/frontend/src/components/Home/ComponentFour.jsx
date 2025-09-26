@@ -52,7 +52,7 @@ const TestimonialCard = ({ name, title, quote, avatar }) => (
       />
       <div>
         <h3 className="font-bold text-sm sm:text-base md:text-lg text-gray-800">{name}</h3>
-        <p className="text-xs sm:text-sm text-gray-500">{title}</p>
+        {/* <p className="text-xs sm:text-sm text-gray-500">{title}</p> */}
       </div>
     </div>
     <p className="text-gray-600 italic text-sm sm:text-base">"{quote}"</p>
