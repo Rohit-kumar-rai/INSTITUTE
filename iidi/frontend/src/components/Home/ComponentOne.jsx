@@ -66,8 +66,8 @@ const ComponentOne = () => {
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight mb-">
                             Empowering Tomorrow's Innovators with <span className="text-red-500">IIDI</span>
                         </h1>
-                         <p className="text-lg font-bold text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
-                             WELCOME TO THE CERTIFICATION IN INFULANCER
+                         <p className="text-lg font-semibold text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
+                             Welcome to our  CERTIFICATION in influencer marketing
 this program prepares you to leverage personal branding and ai innovation for growth, impact, and career opportunities in the creator economy.
                          </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
