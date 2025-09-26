@@ -1,12 +1,12 @@
 import React from 'react';
-import google from '../../assets/homePics/logos/google.png';
+import google from '../../assets/homePics/logos/Google.png'
 import ibm from '../../assets/homePics/logos/ibm.png';
 import duke from '../../assets/homePics/logos/duke.png';
 import stanford from '../../assets/homePics/logos/stanford.png';
 import penn from '../../assets/homePics/logos/penn.png';
 import michigan from '../../assets/homePics/logos/michigan.png';
 import imperial from '../../assets/homePics/logos/imperial.png';
-import illinois from '../../assets/homePics/logos/illinois.png';
+import illinois from '../../assets/homePics/logos/Illinois.png';
 
 // Logo placeholder component
 const LogoPlaceholder = ({ logo, name }) => (
