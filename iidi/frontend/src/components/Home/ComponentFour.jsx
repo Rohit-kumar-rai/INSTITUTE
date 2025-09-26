@@ -3,39 +3,39 @@ import React from 'react';
 // Mock course-related testimonials
 const testimonials = [
   {
-    name: 'Ramdas Bhakt',
+    name: 'Amit Kumar',
     title: 'Data Science Student',
-    quote: 'The AI course helped me land my first job as a data analyst. The hands-on assignments were extremely useful!',
+    quote: 'One of the best institutes for Data Science and Intelligence! Knowledgeable faculty, industry-relevant curriculum, and hands-on experience. Highly recommend for a successful career in data science!',
     avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
   },
   {
-    name: 'Aniket Sharma',
+    name: 'Nitesh',
     title: 'Marketing Analytics Student',
-    quote: 'The marketing analytics certification gave me practical skills in Google Analytics and campaign performance.',
+    quote: 'I recently met a faculty here and she was very knowledgable. Good facility in the city',
     avatar: 'https://randomuser.me/api/portraits/men/33.jpg',
   },
   {
-    name: 'Priya Patel',
+    name: 'PRIYA TIWARI',
     title: 'Python & AI Student',
-    quote: 'Loved the Data Science and AI course! The mentors were supportive and the projects were industry-relevant.',
+    quote: 'Best institute ever seen qualified staff and great learning',
     avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
   },
   {
-    name: 'Bablu Pandit',
+    name: 'Chandresh Tiwari',
     title: 'Web Development Student',
-    quote: 'The full-stack web development projects helped me build a strong portfolio that impressed recruiters.',
+    quote: 'One of the best counciling session i attended at International Institute of Data Inteligence.I am from Rudrapur.',
     avatar: 'https://randomuser.me/api/portraits/men/46.jpg',
   },
   {
-    name: 'Sarkchanda Upadhayay',
+    name: 'Aanchal Tiwari',
     title: 'AI & Machine Learning Student',
-    quote: 'I gained confidence in applying AI concepts to real-world datasets. Highly recommend the mentorship support!',
+    quote: 'Great placement support',
     avatar: 'https://randomuser.me/api/portraits/women/68.jpg',
   },
   {
-    name: 'Syamsunder Kumar',
+    name: 'Tribhuwan Tiwari',
     title: 'Database Management Student',
-    quote: 'The database courses helped me master SQL and PL/SQL. Now I can confidently handle enterprise-level databases.',
+    quote: 'Best Institute for IT and Great Placement Support.',
     avatar: 'https://randomuser.me/api/portraits/men/86.jpg',
   },
 ];
