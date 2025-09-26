@@ -15,6 +15,8 @@ import About from './components/About/About';
 import emailjs from 'emailjs-com';
 import Contact from './components/Contact/Contact.jsx';
 import CourseHome from './components/CourseHome/CourseHome.jsx';
+import InfluencerMarketing from './components/InfluencerMarketing/InfluencerMarketing.jsx';
+import Marketing from './components/Marketing/Marketing.jsx';
 
 function App() {
 
@@ -49,7 +51,9 @@ function App() {
           <Route path="/upload-proof" element={<UploadProof />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-           <Route path ="/marketing" element={<CourseHome />}/>
+           <Route path ="/marketing" element={<Marketing />}/>
+           <Route path ="/influencer-marketing" element={<InfluencerMarketing />}/>
+           <Route path ="/coursehome" element={<CourseHome />}/>
         </Routes>
         <Footer />
       </AuthProvider>

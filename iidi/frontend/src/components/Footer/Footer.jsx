@@ -26,7 +26,7 @@ const GithubIcon = () => (
 );
 
 export default function Footer() {
-  const footerLinks = [ {name:"Data science & AI" ,to: "DataScience"}, {name:"Digital Marketing With AI", to: "Digital Marketing With AI"}, {name:"Influencer Marketing With Content Creation", to: "Influencer Marketing With Content Creation"}]; //["Features", "data science & AI","Marketing Analytics","Design" /*"Careers", "Work", "Code", "Cool stuffs", "Last thing"*/];
+  const footerLinks = [ {name:"Data science & AI" ,to: "DataScience"}, {name:"Digital Marketing With AI", to: "/marketing"}, {name:"Influencer Marketing With Content Creation", to: "/influencer-marketing"}]; //["Features", "data science & AI","Marketing Analytics","Design" /*"Careers", "Work", "Code", "Cool stuffs", "Last thing"*/];
    const AboutLinks =[ {name:"Home", to: "/"},{name:"About" ,to: "/"}, {name:"contact us", to: "/contact"},{name:"features", to: "/course"}]; 
 
   return (

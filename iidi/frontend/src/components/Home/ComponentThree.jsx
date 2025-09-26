@@ -255,7 +255,7 @@ const ComponentThree = () => {
       certificate: 'Professional Certificate',
       badges: ['DEDICATED CAREER SUPPORT', 'MENTORSHIP'],
       topics: 'Python Programming, Machine Learning, Data Visualization, AI Applications',
-      path: '/influencer'
+      path: '/influencer-marketing',
     }
   ];
 

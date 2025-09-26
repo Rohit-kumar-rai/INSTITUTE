@@ -13,8 +13,8 @@ const navLinks = [
 // Course categories for dropdown
 const courseCategories = [
   { name: "Data Science & AI", to: "/datascience" },
-  { name: "Digital Marketing With AI", to: "" },
-  { name: "Influencer Marketing With Content Creation", to: "" },
+  { name: "Digital Marketing With AI", to: "/marketing" },
+  { name: "Influencer Marketing With Content Creation", to: "/influencer-marketing" },
 ];
 
 // SVG Icons
