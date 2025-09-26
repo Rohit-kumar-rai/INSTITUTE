@@ -1,5 +1,5 @@
 import React from 'react';
-import google from '../../assets/homePics/logos/google.png';
+import google from '../../assets/homePics/logos/google.png'
 import ibm from '../../assets/homePics/logos/ibm.png';
 import duke from '../../assets/homePics/logos/duke.png';
 import stanford from '../../assets/homePics/logos/stanford.png';
