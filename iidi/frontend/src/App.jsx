@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import DataScience from './components/DataSciencePage/DataScience';         // Added
-import Course from './components/Course/Course';
+
 import Payment from './components/Payment/Payment';
 import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
@@ -43,7 +43,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/datascience" element={<DataScience />} />
-          <Route path="/course" element={<Course />} />
+          
           <Route path="/payment" element={<Payment />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
@@ -53,7 +53,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
            <Route path ="/marketing" element={<Marketing />}/>
            <Route path ="/influencer-marketing" element={<InfluencerMarketing />}/>
-           <Route path ="/coursehome" element={<CourseHome />}/>
+           <Route path ="/course" element={<CourseHome />}/>
         </Routes>
         <Footer />
       </AuthProvider>

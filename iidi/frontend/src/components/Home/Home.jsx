@@ -3,6 +3,7 @@ import ComponentTwo from "./ComponentTwo"
 import ComponentThree from "./ComponentThree"
 import ComponentFour from "./ComponentFour"
 import ComponentFive from "./ComponentFive"
+import ComponentSix from "./ComponentSix"
 const Home =()=>{
     return(
         <div className="w-full p-0 min-h-screen">
@@ -10,6 +11,7 @@ const Home =()=>{
             <ComponentTwo/>
             <ComponentThree/>
             <ComponentFive/>
+            <ComponentSix/>
             <ComponentFour/>
 
         </div>
