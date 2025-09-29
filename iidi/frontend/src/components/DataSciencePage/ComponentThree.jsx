@@ -6,32 +6,32 @@ const courseModules = [
   {
     number: 1,
     title: 'AI Concepts and Applications',
-    description: 'History and ethics of AI, Narrow vs General AI, Real-world AI use cases. Foundation concepts to understand the AI landscape and ethical considerations.',
+    description: "Introduction to Data Analytics Role of a Data Analyst Analytics vs DataScience vs Business ,Intelligence, Data types, formats and lifecycle Excel for Data Analysis Data cleaning and formatting Formulas, pivot tables, VLOOKUP/XLOOKUP Charts and dashboards",
   },
   {
     number: 2,
     title: 'Deep Learning with TensorFlow/Keras',
-    description: 'Neural network fundamentals, Activation functions, loss functions. Building and training models with Keras for practical deep learning applications.',
+    description: 'SQL for Data Analysts Relational databases and normalization SELEСТ,JOIN, GROUP BY, HAVING Subqueries and window functions Data Visualization Data storytelling principles Using Power BI or Tableau Creating interactive dashboards',
   },
   {
     number: 3,
     title: 'Computer Vision',
-    description: 'Image processing with OpenCV, CNNs (Convolutional Neural Networks), Object detection basics. Learn to work with visual data and build computer vision systems.',
+    description: 'Python for Analytics (Basics)Python syntax, variables, and data structures Pandas and NumPy for data handling Matplotlib and Seaborn for visualization Capstone Project Real-world data analysis project Presentation to simulate business communication',
   },
   {
     number: 4,
     title: 'Natural Language Processing (NLP)',
-    description: 'Text cleaning and preprocessing, Bag-of-Words, TF-IDF, Word embeddings, RNNs, LSTM. Master text analysis and language understanding techniques.',
+    description: 'Foundations of Data Science Data science lifecycle Tools: Jupyter Notebook, Python, GitMath: statistics, probability, linear algebra basics Data Handling with PythonData wrangling using Pandas and NumPyExploratory Data Analysis (EDA) Feature engineering and selection',
   },
   {
     number: 5,
     title: 'AI Model Deployment',
-    description: 'REST APIs with Flask or Fast API. Using pre-trained models (Hugging Face, OpenAI). AI ethics and bias mitigation for production systems.',
+    description: 'Machine Learning Basics Supervised vs unsupervised learning Linear Regression, Logistic Regression Decision Trees and Random Forest Model Evaluation and Optimization Train-test split, cross-validationMetrics: accuracy, precision, recall, F1Hyperparameter tuning (Grid Search,RandomSearch)',
   },
   {
     number: 6,
     title: 'Final Project',
-    description: 'AI-based product development (e.g., chatbot, image classifier). Comprehensive report and demo presentation to showcase your skills.',
+    description: 'Advanced ML Models Support Vector Machinesk-Means Clustering,PCAE nsemble methods (Boosting, Bagging) Capstone Project End-to-end ML projectModel deployment(basic Flask/Streamlit)',
   },
 ];
 
@@ -43,7 +43,7 @@ const ModuleCard = ({ number, title, description }) => (
         {number}
       </div>
       <div className="flex-1">
-        <h3 className="text-lg font-bold text-gray-800 mb-2">{title}</h3>
+        {/* <h3 className="text-lg font-bold text-gray-800 mb-2">{title}</h3> */}
         <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
       </div>
     </div>

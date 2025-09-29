@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // Importing icons from React Icons library (Feather set)
 import { FiFileText, FiBookOpen, FiGlobe, FiHeart, FiAward } from 'react-icons/fi';
 
@@ -92,9 +93,9 @@ const ComponentThree = () => {
               {/* Conditionally render the button for the highlighted card */}
               {feature.isHighlighted && (
                 <div className="mt-auto pt-8">
-                  <button className="w-full rounded-lg bg-red-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-600">
+                 <Link to ="/contact"> <button className="w-full rounded-lg bg-red-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-600">
                     Contact Us
-                  </button>
+                  </button></Link>
                 </div>
               )}
             </div>

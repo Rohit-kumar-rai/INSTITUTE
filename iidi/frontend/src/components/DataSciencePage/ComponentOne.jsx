@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../../assets/dataScience/firstpic.png';
 
 const ComponentOne = () => {
   return (
@@ -24,7 +25,7 @@ const ComponentOne = () => {
           {/* Right Image Section */}
           <div className="md:w-1/2 mt-8 md:mt-0">
             <img 
-              src="https://placehold.co/600x400/e2e8f0/334155?text=AI+Concept" 
+              src={img} 
               alt="Abstract representation of Artificial Intelligence" 
               className="rounded-lg shadow-2xl w-full h-auto"
             />

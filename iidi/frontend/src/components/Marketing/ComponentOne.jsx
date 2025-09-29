@@ -1,4 +1,5 @@
 import React from 'react';
+import img from "../../assets/marketingPics/img.png";
 
 // SVG Icon for the button
 const ArrowRightIcon = () => (
@@ -31,9 +32,9 @@ const ComponentOne = () => {
                     {/* Right Column: Abstract Graphics */}
                     <div className="relative w-full h-[400px] sm:h-[500px] flex items-center justify-center">
                         {/* Main Image Placeholder */}
-                        <div className="absolute z-20 w-48 h-48 bg-gray-200 rounded-full flex items-center justify-center text-gray-500">
+                        <div className="absolute z-20 w-48 h-48 bg-white rounded-full flex items-center justify-center text-gray-500 right-1/5">
                             {/* You can replace this div with your actual image component or img tag */}
-                            <span className="text-center text-sm p-4">Image Placeholder</span>
+                            <img src={img} alt="Career Experts" className="w-full h-full object-contain" />
                         </div>
 
                         {/* Background Shapes */}

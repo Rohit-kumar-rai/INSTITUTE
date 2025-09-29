@@ -15,6 +15,7 @@ const About = () => {
             <ComponentTwo />
             <ComponentThree />
             <ComponentFour />
+            
 
             {/* Styled Navigation Section */}
             <div className="mt-12 flex justify-center gap-6 bg-white p-6 shadow-lg rounded-lg">

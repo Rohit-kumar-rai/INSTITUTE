@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../assets/coursepics/people.png'
+import { Link } from 'react-router-dom'
 
 // A simple arrow icon component for the button
 const ArrowRightIcon = () => (
@@ -33,10 +34,10 @@ export default function ComponentFour() {
             <p className="mt-4 text-base sm:text-lg text-gray-600">
               Get in touch with our program advisor & get your queries resolved.
             </p>
-            <button className="group mt-8 bg-red-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75 transition-all duration-300 ease-in-out flex items-center justify-center mx-auto md:mx-0">
+            <Link to ="/contact"> <button className="group mt-8 bg-red-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75 transition-all duration-300 ease-in-out flex items-center justify-center mx-auto md:mx-0">
               Register Now
               <ArrowRightIcon />
-            </button>
+            </button></Link>
           </div>
           
           {/* Right side: Image Placeholder */}

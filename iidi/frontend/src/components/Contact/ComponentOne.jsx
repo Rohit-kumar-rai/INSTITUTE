@@ -27,9 +27,9 @@ export default function App() {
 
         // --- EMAILJS INTEGRATION ---
         // Replace with your Public Key, Template ID, and Service ID
-        const publicKey = 'YOUR_PUBLIC_KEY';
-        const templateId = 'YOUR_TEMPLATE_ID';
-        const serviceId = 'YOUR_SERVICE_ID';
+        const publicKey = '3a152Lj7nGgqzo-3V';
+        const templateId = 'template_3wns5fd';
+        const serviceId = 'service_9tfhhlt';
 
         emailjs.sendForm(serviceId, templateId, form.current, publicKey)
             .then(
@@ -167,7 +167,7 @@ export default function App() {
                                     <div className="ml-4">
                                         <h3 className="text-lg font-semibold text-gray-700">Email Address</h3>
                                         <a href="mailto:help@info.com" className="text-blue-600 hover:underline">help@info.com</a>
-                                        <p className="text-sm text-gray-500 mt-1">Assistance hours:<br />Monday - Friday 6 am to 8 pm EST</p>
+                                        <p className="text-sm text-gray-500 mt-1">Assistance hours:<br />Monday - Saturday</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
@@ -177,7 +177,7 @@ export default function App() {
                                     <div className="ml-4">
                                         <h3 className="text-lg font-semibold text-gray-700">Number</h3>
                                         <a href="tel:8889990000" className="text-blue-600 hover:underline">(888) 999-0000</a>
-                                        <p className="text-sm text-gray-500 mt-1">Assistance hours:<br />Monday - Friday 6 am to 8 pm EST</p>
+                                        <p className="text-sm text-gray-500 mt-1">Assistance hours:<br />Monday - Saturday</p>
                                     </div>
                                 </div>
                             </div>

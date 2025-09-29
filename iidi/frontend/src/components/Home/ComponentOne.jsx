@@ -67,9 +67,16 @@ const ComponentOne = () => {
                             Empowering Tomorrow's Innovators with <span className="text-red-500">IIDI</span>
                         </h1>
                          <p className="text-lg font-semibold text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
-                             Welcome to our  CERTIFICATION in influencer marketing
-this program prepares you to leverage personal branding and ai innovation for growth, impact, and career opportunities in the creator economy.
-                         </p>
+                            The International Institute of Data
+Intelligence (IIDI) stands as a global
+leader in modern education and
+industry-ready training. With a
+strong focus on innovation,
+excellence,and skill development, IIDI
+offers a comprehensive range of
+programs across the most in-demand
+fields of the 21st century.
+                        </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <button className="group flex items-center justify-center bg-red-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-red-600 transition-colors duration-300 ease-in-out">
                                 <Link to="" className="flex items-center">
