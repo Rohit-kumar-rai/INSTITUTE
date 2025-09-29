@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // SVG Icon for the button
 const ArrowRightIcon = () => (
@@ -76,10 +77,10 @@ const ComponentThree = () => {
                                 ))}
                             </ul>
 
-                            <button className="group mt-8 inline-flex items-center justify-center px-6 py-3 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+                           <Link to = "/contact"><button className="group mt-8 inline-flex items-center justify-center px-6 py-3 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
                                 Register Now
                                 <ArrowRightIcon />
-                            </button>
+                            </button></Link> 
                         </div>
                     </div>
                 </div>

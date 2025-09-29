@@ -1,5 +1,6 @@
 import React from 'react';
 import img from "../../assets/marketingPics/img.png";
+import { Link } from 'react-router-dom';
 
 // SVG Icon for the button
 const ArrowRightIcon = () => (
@@ -23,10 +24,10 @@ const ComponentOne = () => {
                         <p className="mt-6 text-base sm:text-lg text-gray-600">
                             Artificial Intelligence (AI) in digital marketing has transformed from an imaginative idea to a crucial tool for modern marketers. It has emerged as a powerful technology that enhances personalization, predictive analytics, customer experiences, and more.
                         </p>
-                        <button className="group mt-8 inline-flex items-center justify-center px-8 py-3 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+                       <Link to ="/contact"><button className="group mt-8 inline-flex items-center justify-center px-8 py-3 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
                             Register Now
                             <ArrowRightIcon />
-                        </button>
+                        </button></Link> 
                     </div>
 
                     {/* Right Column: Abstract Graphics */}

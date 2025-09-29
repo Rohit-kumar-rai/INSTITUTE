@@ -45,9 +45,9 @@ export default function Footer() {
 
             </p>
             <div className="flex space-x-4">
-              <a href="#" aria-label="Facebook"><FacebookIcon /></a>
-              <a href="#" aria-label="Instagram"><InstagramIcon /></a>
-              <a href="#" aria-label="LinkedIn"><LinkedinIcon /></a>
+              <a href="https://www.facebook.com/share/175nHergUy/?mibextid=wwXIfr" aria-label="Facebook"><FacebookIcon /></a>
+              <a href="https://www.instagram.com/iidi_official?igsh=eDZrOXV0b3czZW11&utm_source=qr" aria-label="Instagram"><InstagramIcon /></a>
+              <a href="https://www.linkedin.com/company/international-institute-of-data-science/" aria-label="LinkedIn"><LinkedinIcon /></a>
             </div>
           </div>
 
@@ -101,9 +101,9 @@ export default function Footer() {
             <p className="text-sm text-gray-500">&copy; 2025 IIDI. All rights reserved.</p>
           </div>
           <div className="flex space-x-4">
-            <a href="#" aria-label="Facebook"><FacebookIcon /></a>
+            <a href="https://www.facebook.com/share/175nHergUy/?mibextid=wwXIfr" aria-label="Facebook"><FacebookIcon /></a>
             <a href="#" aria-label="Twitter"><TwitterIcon /></a>
-            <a href="#" aria-label="Dribbble"><DribbbleIcon /></a>
+            <a href="https://www.instagram.com/iidi_official?igsh=eDZrOXV0b3czZW11&utm_source=qr" aria-label="Dribbble"><DribbbleIcon /></a>
             <a href="#" aria-label="Github"><GithubIcon /></a>
           </div>
         </div>

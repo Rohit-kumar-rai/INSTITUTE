@@ -44,12 +44,12 @@ const testimonials = [
 const TestimonialCard = ({ name, title, quote, avatar }) => (
   <div className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-2xl border border-pink-300 shadow-lg p-4 sm:p-6 md:p-8 mx-3 sm:mx-4 my-4">
     <div className="flex items-center mb-3 sm:mb-4">
-      <img 
+      {/* <img 
         src={avatar} 
         alt={name} 
         className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover mr-3 sm:mr-4 border-2 border-gray-200"
         onError={(e) => { e.target.onerror = null; e.target.src = `https://placehold.co/64x64/EBF4FF/7F9CF5?text=${name.charAt(0)}`; }}
-      />
+      /> */}
       <div>
         <h3 className="font-bold text-sm sm:text-base md:text-lg text-gray-800">{name}</h3>
         {/* <p className="text-xs sm:text-sm text-gray-500">{title}</p> */}
