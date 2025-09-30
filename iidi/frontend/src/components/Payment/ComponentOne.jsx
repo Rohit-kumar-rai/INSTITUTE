@@ -511,7 +511,7 @@ const ComponentOne = () => {
                   </a>
                   <p className="text-base text-gray-500 leading-relaxed">
                     Assistance day:<br />
-                    Monday - Friday
+                    Monday - Saturday
                   </p>
                 </div>
               </div>

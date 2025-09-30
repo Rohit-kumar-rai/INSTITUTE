@@ -26,8 +26,8 @@ const GithubIcon = () => (
 );
 
 export default function Footer() {
-  const footerLinks = [ {name:"Data science & AI" ,to: "DataScience"}, {name:"Digital Marketing With AI", to: "/marketing"}, {name:"Influencer Marketing With Content Creation", to: "/influencer-marketing"}]; //["Features", "data science & AI","Marketing Analytics","Design" /*"Careers", "Work", "Code", "Cool stuffs", "Last thing"*/];
-   const AboutLinks =[ {name:"Home", to: "/"},{name:"About" ,to: "/"}, {name:"contact us", to: "/contact"},{name:"features", to: "/course"}]; 
+  const footerLinks = [ {name:"Data science & AI" ,to: "/DataScience"}, {name:"Digital Marketing With AI", to: "/marketing"}, {name:"Influencer Marketing With Content Creation", to: "/influencer-marketing"}]; //["Features", "data science & AI","Marketing Analytics","Design" /*"Careers", "Work", "Code", "Cool stuffs", "Last thing"*/];
+   const AboutLinks =[ {name:"Home", to: "/"},{name:"About" ,to: "/about"}, {name:"contact us", to: "/contact"},{name:"features", to: "/course"}]; 
 
   return (
     <footer className="bg-white text-gray-700 font-sans">
@@ -61,7 +61,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Links */}
+          {/* Column 3: Links */} 
           <div>
             <h3 className="font-bold text-red-500 mb-4">Course</h3>
             <ul className="space-y-3">
@@ -84,7 +84,7 @@ export default function Footer() {
               <li>
                 <div className="hover:text-red-500 transition-colors">
                   <p className="font-semibold">info@internationalinsitute
- ofdataintellegence</p>
+ ofdataintellegence.com</p>
                   <p className="text-sm text-gray-500"> Official email</p>
                 </div>
               </li>

@@ -1,4 +1,7 @@
 import React from 'react';
+import img1 from '../../assets/influencerMarketing/marketing.jpg'
+import img2 from '../../assets/influencerMarketing/imgtwo.png'
+import img3 from '../../assets/influencerMarketing/imgthree.png'
 
 // SVG Icon components for clarity and reusability
 const HeartIcon = () => (
@@ -62,9 +65,9 @@ const ComponentOne = () => {
                         {/* Main Image */}
                         <div className="absolute inset-0 m-auto w-[280px] h-[380px] sm:w-[320px] sm:h-[420px] shadow-2xl rounded-2xl z-10">
                              <img 
-                                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop"
+                                src={img1}
                                 alt="Fashion model" 
-                                className="w-full h-full object-cover rounded-2xl grayscale"
+                                className="w-full h-full object-fit-cover rounded-2xl grayscale"
                             />
                         </div>
 
@@ -72,14 +75,14 @@ const ComponentOne = () => {
                         <div className="absolute top-1/2 right-0 sm:right-4 md:right-8 lg:right-0 w-[250px] sm:w-[280px] bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-xl z-20 transform -translate-y-1/2 translate-x-0 sm:translate-x-4 lg:translate-x-1/4">
                             <div className="flex items-center mb-3">
                                 <img 
-                                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop" 
+                                    src={img3}
                                     alt="Sofia Reed" 
                                     className="w-10 h-10 rounded-full object-cover"
                                 />
                                 <p className="ml-3 font-semibold text-gray-800 text-sm">Sofia Reed</p>
                             </div>
                             <img 
-                                src="https://images.unsplash.com/photo-1599351548092-935567038313?q=80&w=1887&auto=format&fit=crop" 
+                                src={img2} 
                                 alt="Beauty product post" 
                                 className="w-full h-auto rounded-lg"
                             />

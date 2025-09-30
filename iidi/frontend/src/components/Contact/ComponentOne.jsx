@@ -166,7 +166,7 @@ export default function App() {
                                     </InfoIcon>
                                     <div className="ml-4">
                                         <h3 className="text-lg font-semibold text-gray-700">Email Address</h3>
-                                        <a href="mailto:help@info.com" className="text-blue-600 hover:underline">help@info.com</a>
+                                        <a href="mailto:info@internationalinsituteofdataintellegence" className="text-blue-600 hover:underline">info@internationalinsituteofdataintellegence</a>
                                         <p className="text-sm text-gray-500 mt-1">Assistance hours:<br />Monday - Saturday</p>
                                     </div>
                                 </div>
