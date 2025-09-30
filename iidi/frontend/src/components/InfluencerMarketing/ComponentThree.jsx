@@ -1,4 +1,7 @@
 import React from 'react';
+import img1 from '../../assets/influencerMarketing/cardone.jpg'
+import img2 from '../../assets/influencerMarketing/cardtwo.jpg'
+import img3 from '../../assets/influencerMarketing/cardthree.jpg'
 
 // SVG Icon for the three-dot menu
 const MoreIcon = () => (
@@ -37,19 +40,19 @@ const InfoCard = ({ imageUrl, title, description, imageAlt }) => (
 const ComponentThree = () => {
     const cardData = [
         {
-            imageUrl: "https://images.unsplash.com/photo-1556740738-b6a63e2775df?q=80&w=2070&auto=format&fit=crop",
+            imageUrl: {img1},
             title: "Industry Growth",
             description: "The influencer marketing industry is worth over $24 billion globally by 2025, presenting immense career opportunities.",
             imageAlt: "Team looking at business charts on a laptop"
         },
         {
-            imageUrl: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=2070&auto=format&fit=crop",
+            imageUrl: {img2},
             title: "Cost-Effective Leads",
             description: "Content marketing drives 3x more leads than traditional marketing at 62% less cost, making it highly efficient.",
             imageAlt: "Two colleagues reviewing documents together"
         },
         {
-            imageUrl: "https://images.unsplash.com/photo-1554415707-6e8cf6b92bbb?q=80&w=2070&auto=format&fit=crop",
+            imageUrl: {img3},
             title: "Authentic Engagement",
             description: "Brands increasingly rely on certified professionals to build authentic engagement and trust with their target audiences.",
             imageAlt: "Person smiling and holding a smartphone"
