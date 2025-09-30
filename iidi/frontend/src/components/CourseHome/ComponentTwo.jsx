@@ -1,30 +1,34 @@
 import React from 'react';
 import img1 from '../../assets/homePics/coursepics/ai.png';
 import img2 from '../../assets/homePics/coursepics/marketing.png';
-import img3 from '../../assets/homePics/coursepics/influencer.png'
+import img3 from '../../assets/homePics/coursepics/influencer.png';
+import {Link} from 'react-router-dom';
 
 // Data for the certification cards
 const programs = [
     {
         title: 'Data Science and Artificial Intelligence',
+        path: '/datascience',
         image: img1,
-        duration: '4-6 Months',
+        duration: '7-8 Months',
         certificate: 'Professional Certificate',
         tags: ['DEDICATED CAREER SUPPORT', 'MENTORSHIP'],
         topics: 'Python Programming, Machine Learning, Data Visualization, Artificial Intelligence Applications'
     },
     {
         title: 'Digital Marketing with AI',
+        path: '/marketing',
         image: img2,
-        duration: '4-6 Months',
+        duration: '4-8 Months',
         certificate: 'Professional Certificate',
         tags: ['DEDICATED CAREER SUPPORT', 'MENTORSHIP'],
         topics: 'Consumer Behaviour Analytics, Digital Marketing Metrics, Google Analytics, Campaign Performance'
     },
     {
         title: 'Influencer Marketing & Content Creation with AI',
+        path: '/influencer-marketing',
         image: img3,
-        duration: '4-6 Months',
+        duration: '1-2 Months',
         certificate: 'Professional Certificate',
         tags: ['DEDICATED CAREER SUPPORT', 'MENTORSHIP'],
         topics: 'Python Programming, Machine Learning, Data Visualization, AI Applications'
@@ -68,7 +72,7 @@ const ProgramCard = ({ program }) => (
                 <p className="text-sm text-gray-600">{program.topics}</p>
             </div>
             <div className="flex space-x-4">
-                <button className="flex-1 bg-red-500 text-white font-bold py-2 px-4 rounded-md hover:bg-red-600 transition-colors">View Course</button>
+              <Link to ={program.path}>  <button className="flex-1 bg-red-500 text-white font-bold py-2 px-4 rounded-md hover:bg-red-600 transition-colors">View Course</button></Link>
                 <button className="flex-1 bg-white text-red-500 border border-red-500 font-bold py-2 px-4 rounded-md hover:bg-red-50 transition-colors">Brochure</button>
             </div>
         </div>
