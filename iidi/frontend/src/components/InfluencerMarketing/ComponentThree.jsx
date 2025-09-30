@@ -40,19 +40,19 @@ const InfoCard = ({ imageUrl, title, description, imageAlt }) => (
 const ComponentThree = () => {
     const cardData = [
         {
-            imageUrl: {img1},
+            imageUrl: img1,
             title: "Industry Growth",
             description: "The influencer marketing industry is worth over $24 billion globally by 2025, presenting immense career opportunities.",
             imageAlt: "Team looking at business charts on a laptop"
         },
         {
-            imageUrl: {img2},
+            imageUrl: img2,
             title: "Cost-Effective Leads",
             description: "Content marketing drives 3x more leads than traditional marketing at 62% less cost, making it highly efficient.",
             imageAlt: "Two colleagues reviewing documents together"
         },
         {
-            imageUrl: {img3},
+            imageUrl: img3,
             title: "Authentic Engagement",
             description: "Brands increasingly rely on certified professionals to build authentic engagement and trust with their target audiences.",
             imageAlt: "Person smiling and holding a smartphone"
