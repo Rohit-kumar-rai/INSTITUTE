@@ -34,8 +34,8 @@ const UploadProof = () => {
       };
 
       await emailjs.send(
-        'service_jm6vrlh',    // Replace with your EmailJS Service ID
-        'template_hp6z7j8',   // Replace with your EmailJS Template ID
+        'service_kcnwlcj',    // Replace with your EmailJS Service ID
+        'template_wav3f8l',   // Replace with your EmailJS Template ID
         templateParams,
         '3a152Lj7nGgqzo-3V'        // Replace with your EmailJS Public Key
       );
