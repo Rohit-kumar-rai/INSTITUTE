@@ -415,7 +415,7 @@ const ComponentOne = () => {
                 >
                   <option value="">Select course</option>
                   <option value="Data Science & AI">Data Science & AI</option>
-                  <option value="Digital Marketing With AI">Marketing Analytics</option>
+                  <option value="Digital Marketing With AI">Digital Marketing With AI</option>
                   <option value="Influencer Marketing With Content Creation">Influencer Marketing With Content Creation</option>
                 </select>
               </div>
